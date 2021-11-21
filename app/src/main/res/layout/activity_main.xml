@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textViews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xaakib"
+        android:textSize="60dp"/>
+
+    <Button
+        android:id="@+id/bottonClick"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Click" />
+    <TextView
+        android:id="@+id/textViews2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Counter Minus"
+        android:textSize="20pt"/>
+    <Button
+        android:id="@+id/bottonClick2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Click" />
+</LinearLayout>
